@@ -1,0 +1,53 @@
+
+@font-face {
+  font-family: "Polysans";
+  src: url("../fonts/Polysans/PolySans-Bulky.woff2") format("woff2"),
+    url("../fonts/Polysans/PolySans-BulkyItalic.woff2") format("woff2"),
+    url("../fonts/Polysans/PolySans-Median.woff2") format("truetype"),
+    url("../fonts/Polysans/PolySans-MedianItalic.woff2") format("woff2"),
+    url("../fonts/Polysans/PolySans-Neutral.woff2") format("woff2"),
+    url("../fonts/Polysans/PolySans-NeutralItalic.woff2") format("woff2"),
+    url("../fonts/Polysans/PolySans-Slim.woff2") format("woff2"),
+    url("../fonts/Polysans/PolySans-SlimItalic.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Jost";
+  src: url("../fonts/Jost/Jost-Regular.woff2") format("woff2");
+}
+body {
+  font-family: "Polysans", sans-serif;
+  color: var(--accent);
+}
+
+h1 {
+  font-size: var(--h1);
+  line-height: 1;
+  padding-inline: 32px;
+}
+
+.hero-section__text p {
+  font-family: "Jost";
+  font-size: clamp(16px, 1.25vw, 24px);
+  line-height: 1.5;
+}
+
+.hero-section__text h2 {
+  font-size: var(--h4);
+  font-family: "Polysans";
+  line-height: 1;
+  /* text-transform: uppercase; */
+}
+
+.hero-section__text .hero-section__text-portfolio {
+  font-family: "Polysans";
+}
+
+.highlight {
+  color: var(--secondary);
+}
+
+.hero-section-intro {
+  text-align: center;
+  margin-top: 116px;
+}

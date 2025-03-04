@@ -1,0 +1,15 @@
+.progress {
+  height: 8px;
+  background-color: var(--secondary);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 0%;
+  z-index: 100;
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+}
+
+.progress {
+  width: calc(var(--scroll) * 100%);
+}

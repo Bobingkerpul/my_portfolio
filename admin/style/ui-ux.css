@@ -1,0 +1,34 @@
+.upload-design{
+    display: flex;
+    flex-direction: row;
+    gap: clamp(32px, 5vw, 72px)
+}
+
+
+.upload-image-holder img{
+    width: 100%;
+    /* width: clamp(200px, 34.72vw, 500px); */
+    height: clamp(150px, 27.77vw, 400px);
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.imageholder-ux{
+    width: 50px;
+    height: 50px;
+    clip-path: circle(50% at 50% 50%);
+}
+.imageholder-ux img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.ui-ux{
+    width: 40%;
+    background: rgba(255, 255, 255, 0.2);
+    padding: 52px;
+    border-radius: 8px;
+    font-family: jost;
+    font-weight: 300;
+}

@@ -1,0 +1,33 @@
+.dashboard{
+    display: flex;
+    gap: 52px;
+}
+
+main {
+    width: 100%;
+    margin-top: 32px;
+}
+
+.main{
+   padding: clamp(20px, 4.16vw, 60px);
+}
+
+
+.action{
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+.action button {
+    height:38px;
+    width: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+}
+
+.action button img {
+    width: 24px;
+    object-fit: cover;
+}
